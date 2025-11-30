@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="description" content="Personal Portfolio Website">
+
+    <!-- Google Font: Geist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Geist', 'sans-serif'],
+                    },
+                    colors: {
+                        // Custom color palette variables can be adjusted here
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom scrollbar for Webkit */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 20px;
+        }
+
+        .dark ::-webkit-scrollbar-thumb {
+            background-color: #475569;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans antialiased">
+
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle"
+        class="fixed top-6 right-6 z-50 p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-all duration-300 focus:outline-none ring-1 ring-gray-200 dark:ring-gray-700"
+        aria-label="Toggle Dark Mode">
+        <!-- Sun Icon -->
+        <svg class="w-6 h-6 text-yellow-500 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+            </path>
+        </svg>
+        <!-- Moon Icon -->
+        <svg class="w-6 h-6 text-gray-700 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20.354 24.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+        </svg>
+    </button>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 sm:py-20 space-y-24 sm:space-y-32">
+
+        <!-- HERO SECTION -->
+        <section id="hero"
+            class="flex flex-col-reverse sm:flex-row items-center justify-between gap-10 animate-on-scroll">
+            <div class="flex-1 text-center sm:text-left">
+                <h1 id="hero-name"
+                    class="text-4xl sm:text-5xl font-black tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400">
+                    <!-- Name injected via JS -->
+                </h1>
+                <h2 id="hero-title" class="text-xl sm:text-2xl font-medium text-gray-600 dark:text-gray-300 mb-6">
+                    <!-- Title injected via JS -->
+                </h2>
+                <p id="hero-description"
+                    class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg mx-auto sm:mx-0 leading-relaxed">
+                    <!-- Description injected via JS -->
+                </p>
+                <div class="flex gap-4 justify-center sm:justify-start">
+                    <a href="#contact"
+                        class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors shadow-md hover:shadow-lg">
+                        Get in Touch
+                    </a>
+                    <a href="#projects"
+                        class="px-6 py-3 bg-white dark:bg-gray-800 text-gray-800 dark:text-white font-semibold rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors shadow-sm">
+                        View Work
+                    </a>
+                </div>
+            </div>
+            <div class="w-48 h-48 sm:w-64 sm:h-64 flex-shrink-0 relative">
+                <div
+                    class="absolute inset-0 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full blur-2xl opacity-20 dark:opacity-40 animate-pulse">
+                </div>
+                <img id="hero-image" src="" alt="Profile"
+                    class="w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-2xl relative z-10">
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="animate-on-scroll">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                <span class="w-8 h-1 bg-blue-500 rounded-full"></span>
+                About Me
+            </h2>
+            <div id="about-content" class="prose dark:prose-invert max-w-none">
+                <!-- Paragraphs injected via JS -->
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="animate-on-scroll">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                <span class="w-8 h-1 bg-purple-500 rounded-full"></span>
+                Skills
+            </h2>
+            <div id="skills-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <!-- Skills injected via JS -->
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="animate-on-scroll">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                <span class="w-8 h-1 bg-green-500 rounded-full"></span>
+                Featured Projects
+            </h2>
+            <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Projects injected via JS -->
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="animate-on-scroll">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                <span class="w-8 h-1 bg-orange-500 rounded-full"></span>
+                Experience
+            </h2>
+            <div id="experience-list" class="space-y-0 ml-2">
+                <!-- Experience items injected via JS -->
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="animate-on-scroll">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                <span class="w-8 h-1 bg-red-500 rounded-full"></span>
+                Contact
+            </h2>
+            <div
+                class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700">
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name"
+                                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Name</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all">
+                        </div>
+                        <div>
+                            <label for="email"
+                                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="message"
+                            class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" required
+                            class="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full sm:w-auto px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition-colors shadow-md">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="text-center pt-12 pb-8 border-t border-gray-200 dark:border-gray-800">
+            <p class="text-gray-500 dark:text-gray-400 mb-4">
+                &copy; <span id="footer-year"></span> Built with HTML, Tailwind & JS.
+            </p>
+            <div class="flex justify-center gap-6">
+                <a id="footer-email" href="#" class="text-gray-400 hover:text-blue-500 transition-colors">
+                    Email
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+                    GitHub
+                </a>
+                <a href="#" class="text-gray-400 hover:text-blue-600 transition-colors">
+                    LinkedIn
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
