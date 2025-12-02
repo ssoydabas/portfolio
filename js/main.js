@@ -37,10 +37,6 @@ function initTheme() {
    RENDER CONTENT
    ========================================== */
 function renderContent() {
-    renderHero();
-    renderAbout();
-    renderSkills();
-    renderInterests();
     renderProjects();
     renderExperience();
     renderFooter();
