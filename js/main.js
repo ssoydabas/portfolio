@@ -40,9 +40,25 @@ function renderContent() {
     renderHero();
     renderAbout();
     renderSkills();
+    renderInterests();
     renderProjects();
     renderExperience();
     renderFooter();
+}
+
+function renderInterests() {
+    const interestsContainer = document.getElementById('interests-content');
+    if (!portfolioData.interests) return;
+
+    portfolioData.interests.items.forEach(item => {
+        const div = document.createElement('div');
+        div.className = "bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md border border-gray-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300";
+        div.innerHTML = `
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">${item.title}</h3>
+            <p class="text-gray-600 dark:text-gray-300 leading-relaxed">${item.description}</p>
+        `;
+        interestsContainer.appendChild(div);
+    });
 }
 
 function renderHero() {

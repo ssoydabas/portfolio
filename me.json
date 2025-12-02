@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "full_name": "Sertan Soydabaş",
+    "date_of_birth": "1995-07-08",
+    "place_of_birth": "İzmit, Kocaeli, Turkey",
+    "nationality": "Turkish",
+    "gender": "Male",
+    "pronouns": "he/him",
+    "languages": {
+      "turkish": "native",
+      "english": "near-native",
+      "spanish": "beginner"
+    },
+    "ethnic_background": "Turkish",
+    "cultural_details": "Follows basic Turkish customs, not strictly",
+    "traits": [
+      "sincere",
+      "friendly",
+      "serious",
+      "ambitious",
+      "ruthless_when_necessary"
+    ],
+    "online_handles": [
+      "ssoydabas",
+      "ssoydabas41",
+      "sertansoydabas",
+      "sertansoydabas41"
+    ],
+    "appearance": {
+      "height_cm": 170,
+      "weight_range_kg": "74-78",
+      "hair": "black",
+      "beard": "usually has a beard",
+      "piercings": [
+        "brow",
+        "ear piercings"
+      ],
+      "tattoos": [
+        "Igu and me (former pet iguana)"
+      ],
+      "body_type": "skinny fat, improving"
+    },
+    "motto": "Memento te hominem esse.",
+    "notes": [
+      "Not strongly attached to complex traditions",
+      "Identity is clearly Turkish"
+    ]
+  },
+  "education": {
+    "schools": {
+      "primary": "Ulugazi İlköğretim Okulu",
+      "secondary": "ODTÜ KYÖD İlköğretim Okulu",
+      "high_school": "Atılım Anadolu Lisesi",
+      "university": {
+        "name": "Ankara University",
+        "department": "American Culture and Literature",
+        "years": "2013–2018"
+      }
+    },
+    "academic_focus": {
+      "interests": [
+        "languages",
+        "linguistics",
+        "literature",
+        "philosophy"
+      ],
+      "favorite_activities": [
+        "reading short stories, novels, novellas, poems",
+        "deep analysis and expression-focused courses"
+      ],
+      "least_favorites": [
+        "grammar",
+        "history",
+        "repetitive/trivial courses"
+      ]
+    },
+    "extracurricular": {
+      "dance": {
+        "took_lessons": true,
+        "taught_others": true
+      },
+      "work_and_travel": {
+        "location": "Niagara Falls, USA",
+        "impact": "life-changing experience"
+      }
+    },
+    "languages_studied": [
+      "Turkish",
+      "English",
+      "Spanish",
+      "Latin"
+    ],
+    "influential_teachers": [
+      "Şenol Bezci",
+      "Sotirious Babacimus"
+    ],
+    "challenges_and_growth": [
+      "Finished university without a clear direction",
+      "Learned discipline and direction through self-reflection"
+    ]
+  },
+  "preferences": {
+    "lifestyle": {
+      "morning_person": true,
+      "weekday_focus": [
+        "work",
+        "teaching dance"
+      ],
+      "weekend_activities": [
+        "travel",
+        "social drinking"
+      ],
+      "active_changes": [
+        "eat less",
+        "travel more",
+        "read more"
+      ]
+    },
+    "technology": {
+      "devices": [
+        "Android phone",
+        "MacBook Pro"
+      ],
+      "future_plans": "Buy an iPhone",
+      "favorite_platforms": [
+        "Instagram",
+        "Medium",
+        "Substack"
+      ]
+    },
+    "style": {
+      "notes": "Improving with Sena's help",
+      "avoid": [
+        "overly youthful clothing",
+        "overly colorful clothing"
+      ]
+    },
+    "social_preferences": {
+      "extrovert": true,
+      "small_groups": "recharge",
+      "big_parties": "when ready to celebrate"
+    },
+    "food_and_drink": {
+      "habits": "Loves eating, drinks socially",
+      "working_on": [
+        "healthier eating"
+      ]
+    },
+    "other": [
+      "wants more travel and reading"
+    ]
+  },
+  "values": {
+    "beliefs": [
+      "Life is about balance",
+      "Never harm others",
+      "Don’t waste time on people who don’t care about you",
+      "Authenticity is essential",
+      "Fulfillment is subjective"
+    ],
+    "quotes": [
+      "Memento te hominem esse",
+      "You gotta do what you gotta do",
+      "Man up or you will be eaten alive",
+      "Just because you think it is, that is not it",
+      "Happiness doesn't come without struggle",
+      "Be kind to yourself just as you do to others",
+      "Appreciate yourself when you really earn it",
+      "'Deserve' should be changed with 'earn'"
+    ],
+    "relationships": {
+      "principles": [
+        "Mutual support",
+        "Kindness only when deserved",
+        "Values sincerity, loyalty, realness"
+      ]
+    },
+    "work_ethic": {
+      "motivated_by": "money and stability",
+      "philosophy": "Earn success, don’t just 'deserve' it"
+    },
+    "personal_growth": [
+      "Self-improvement matters",
+      "Happiness requires effort and struggle"
+    ],
+    "ethics": {
+      "politics": "generally uninterested",
+      "principles": [
+        "personal accountability",
+        "no wasted kindness"
+      ]
+    }
+  },
+  "skills": {
+    "technical": {
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "GoLang",
+        "Java",
+        "Python"
+      ],
+      "frontend": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Material UI",
+        "Chakra UI"
+      ],
+      "backend": [
+        "Express.js",
+        "Echo (Go)",
+        "GORM",
+        "Drizzle ORM",
+        "SQLAlchemy",
+        "Pydantic",
+        "FastAPI",
+        "RabbitMQ"
+      ],
+      "testing": [
+        "Cypress",
+        "Playwright",
+        "Jest",
+        "Mocha",
+        "Chai"
+      ],
+      "infrastructure": [
+        "Nginx",
+        "Linux",
+        "Docker",
+        "Telepresence",
+        "Kubernetes"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "SQLite"
+      ],
+      "cloud": [
+        "AWS",
+        "Google Kubernetes Engine"
+      ],
+      "ai_ml_tools": [
+        "LangGraph",
+        "Haystack"
+      ],
+      "other": [
+        "deployment pipelines",
+        "dev tooling experience",
+        "CI/CD pipelines",
+        "monitoring and logging",
+        "performance optimization",
+        "security best practices"
+      ]
+    },
+    "languages": {
+      "turkish": "native",
+      "english": "near-native",
+      "spanish": "beginner"
+    },
+    "soft_skills": [
+      "communication",
+      "teamwork",
+      "planning",
+      "leadership",
+      "problem solving",
+      "public speaking",
+      "motivation",
+      "building strong friendships"
+    ],
+    "other_talents": [
+      "professional dance instructor (salsa & Latin)",
+      "teaching & mentoring experience"
+    ]
+  },
+  "interests": {
+    "hobbies": [
+      "dancing (salsa & Latin)",
+      "teaching dance",
+      "preparing shows",
+      "organizing contest performances",
+      "creating social media content",
+      "nature/camping",
+      "desserts",
+      "coffee",
+      "beer",
+      "building personal-use programs"
+    ],
+    "literature": {
+      "favorite_authors": [
+        "Edgar Allan Poe",
+        "Ursula K. Le Guin",
+        "Ernest Hemingway",
+        "Robert Frost",
+        "Mark Twain",
+        "Ahmet Altan",
+        "William Golding",
+        "José Saramago"
+      ],
+      "favorite_works": [
+        "What Is Man?",
+        "The Tell-Tale Heart",
+        "İçimizde Bir Yer",
+        "Blindness"
+      ]
+    },
+    "podcasts": [
+      "The Diary of a CEO",
+      "Modern Wisdom",
+      "Huberman Lab"
+    ],
+    "technology_and_learning": [
+      "AI",
+      "business",
+      "technology’s impact on life"
+    ],
+    "food_and_lifestyle": [
+      "all cuisines",
+      "coffee",
+      "beer"
+    ],
+    "habits": {
+      "likes_routines": true,
+      "main_routines": [
+        "work",
+        "dance"
+      ],
+      "struggles": [
+        "fitness consistency"
+      ]
+    }
+  },
+  "career": {
+    "current_position": {
+      "role": "Full Stack Software Engineer (Backend-Focused)",
+      "company": "GoWit",
+      "duration_months": 8,
+      "key_contributions": [
+        {
+          "title": "SOC 2 Compliance Infrastructure",
+          "description": "Designed and implemented encrypted email storage and related security flows to support upcoming SOC 2 requirements."
+        },
+        {
+          "title": "LangGraph AI Agent System",
+          "description": "Co-built and orchestrated a production-grade LangGraph agent capable of analytics, reporting, campaign setup/update, and automated troubleshooting. Developed tools, nodes, API connectors, and integrated the solution with a branded OpenWebUI frontend."
+        },
+        {
+          "title": "New Ad Type Architecture",
+          "description": "Designed and implemented the 'Sponsored Brand' ad type, extending the platform’s inventory and enabling new revenue opportunities."
+        },
+        {
+          "title": "OpenTelemetry Instrumentation",
+          "description": "Implemented distributed tracing across the API, event consumer, and server layers using OpenTelemetry, with New Relic as the monitoring backend."
+        }
+      ],
+      "technologies": [
+        "Go (Echo)",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Redis",
+        "PostgreSQL",
+        "MongoDB",
+        "SQLite",
+        "Docker",
+        "Kubernetes (kubectl, kubectx, kubens)",
+        "Nginx",
+        "RabbitMQ",
+        "FastAPI",
+        "SQLAlchemy",
+        "Pydantic",
+        "GORM",
+        "Express.js",
+        "React.js",
+        "LangGraph",
+        "OpenTelemetry"
+      ]
+    },
+    "architecture_and_system_design": {
+      "experience": [
+        "Designed microservice systems including API, Auth, Redis caching layer, and PostgreSQL storage.",
+        "Implemented inter-service communication via REST and asynchronous patterns using goroutines.",
+        "Managed secrets and deployment configs via Docker, GitHub Actions, Telepresence, and Kubernetes tools.",
+        "Applied event-driven architectural principles across multiple projects."
+      ]
+    },
+    "ai_and_automation": {
+      "projects": [
+        {
+          "name": "GoWit LangGraph Agent System",
+          "scope": "Multi-action agent that interacts with internal APIs, fetches and transforms data, and executes user-defined goals.",
+          "role": "Graph orchestration, node authoring, tool creation, API integration, frontend integration via customized OpenWebUI."
+        }
+      ]
+    },
+    "career_path": [
+      {
+        "role": "Developer",
+        "company": "Cannabox (Thailand)",
+        "duration": "1.5 years",
+        "achievements": [
+          "Built and improved a full delivery marketplace system integrating stores, payment flows, order routing, and rider dispatch lifecycle.",
+          "Stabilized and maintained a Docker-based application cluster."
+        ]
+      },
+      {
+        "role": "Full Stack Software Engineer",
+        "company": "DT Cloud",
+        "duration": "1 year",
+        "achievements": [
+          "Maintained and extended cloud-based systems with a strong focus on reliability and performance."
+        ]
+      },
+      {
+        "role": "Developer",
+        "company": "Cannabox",
+        "duration": "4 months",
+        "reason_end": "Solved the problem and moved on."
+      },
+      {
+        "role": "Head of English Department",
+        "company": "American Life Language Institutes",
+        "duration": "3 years",
+        "skills_transferred": [
+          "clear communication",
+          "teaching complex concepts simply",
+          "leadership",
+          "perspective-based problem solving"
+        ]
+      },
+      {
+        "role": "Barista",
+        "company": "Starbucks",
+        "duration": "8 months",
+        "learnings": [
+          "discipline",
+          "service",
+          "teamwork"
+        ]
+      }
+    ],
+    "strengths": [
+      "fast problem solving",
+      "deep system design",
+      "strong ownership mentality",
+      "clear & effective communication",
+      "high versatility",
+      "ability to integrate technical work with real customer needs"
+    ],
+    "achievements": [
+      "Built and launched a functional marketplace and delivery system for Cannabox.",
+      "Successfully onboarded into GoWit and became a major contributor in a short time.",
+      "Drove SOC 2-related security implementations.",
+      "Developed production-ready AI automation using LangGraph."
+    ],
+    "challenges": [
+      "navigating difficult career transitions",
+      "imposter syndrome",
+      "learning new technologies under pressure"
+    ],
+    "career_philosophy": {
+      "motivators": [
+        "ownership",
+        "financial freedom",
+        "success"
+      ],
+      "identity_summary": "A backend-focused full stack engineer with a strong sense of ownership, precise system architecture thinking, and a growing specialization in AI-enhanced automation.",
+      "future_goals": [
+        "grow into a Tech Lead role",
+        "build scalable AI-driven products",
+        "eventually found a company"
+      ],
+      "how_others_describe_him": "A brilliant problem solver and system architect with precision and speed."
+    }
+  }
+}
