@@ -5,7 +5,7 @@
 
 const portfolioData = {
     hero: {
-        name: "HOOPAALAAA",
+        name: "Sertan Soydabaş",
         title: "Full Stack Software Engineer (Backend-Focused)",
         description: "A backend-focused full stack engineer with a strong sense of ownership, precise system architecture thinking, and a growing specialization in AI-enhanced automation.",
         image: "me.jpeg"
